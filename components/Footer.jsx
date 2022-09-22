@@ -51,7 +51,7 @@ const Footer = () => {
               </a>
               {/* Linkedin */}
               <a
-                href="https://www.linkedin.com/"
+                              href="https://www.linkedin.com/in/cyberchatbot-intelig%C3%AAncia-artificial-921669251/"
                 className="ml-3 text-gray-200"
                 target="blank"
               >
