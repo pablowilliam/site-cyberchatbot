@@ -36,6 +36,10 @@ export const Navbar = () => {
           <a href="/contato" className="mr-8 hover:text-cyan">
             CONTATO
           </a>
+          <a href="/" className="mr-8 hover:text-cyan text-cyan font-semibold">
+             INÍCIO
+          </a>
+
         </nav>
         {/* ::Avatar */}
         <div className="hidden sm:inline-flex ml-auto md:ml-0 mr-4 md:mr-0 cursor-pointer"></div>
