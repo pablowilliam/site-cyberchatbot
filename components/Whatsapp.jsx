@@ -4,7 +4,7 @@ import FloatingWhatsApp from "react-floating-whatsapp";
 const Whats = () => {
   return (
     <FloatingWhatsApp
-      phoneNumber="+351 931 941 365"
+      phoneNumber="+351 939 121 286"
       accountName="CyberChatBot"
       avatar="/images/banner.png"
       statusMessage="Online"
