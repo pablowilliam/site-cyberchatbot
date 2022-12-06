@@ -5,9 +5,7 @@ export const Navbar = () => {
 
   return (
     <header className="w-full bg-white text-black shadow-sm sticky top-0">
-      {/* :DESKTOP MENU */}
       <div className="container mx-auto flex justify-between items-center py-4 px-5 ">
-        {/* ::Site logo and Naame */}
         <a
           href="/"
           className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
@@ -22,8 +20,11 @@ export const Navbar = () => {
             CyberChatBot
           </span>
         </a>
-        {/* ::Navbar */}
+
         <nav className="hidden md:mr-auto md:ml-4 md:pl-4 md:border-l md:border-gray-500 md:flex flex-wrap items-center justify-center text-sm tracking-wide">
+          <a href="/" className="mr-8 hover:text-cyan text-cyan font-bold">
+            INÍCIO
+          </a>
           <a href="#benefits" className="mr-8 hover:text-cyan ">
             BENEFÍCIOS
           </a>
@@ -36,14 +37,10 @@ export const Navbar = () => {
           <a href="/contato" className="mr-8 hover:text-cyan">
             CONTATO
           </a>
-          <a href="/" className="mr-8 hover:text-cyan text-cyan font-semibold">
-             INÍCIO
-          </a>
-
         </nav>
-        {/* ::Avatar */}
+
         <div className="hidden sm:inline-flex ml-auto md:ml-0 mr-4 md:mr-0 cursor-pointer"></div>
-        {/* ::Burger icon standard */}
+
         <button
           className="md:hidden rounded-md active:outline-none focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan"
           onClick={() => setIsOpen(!isOpen)}
@@ -65,9 +62,14 @@ export const Navbar = () => {
         </button>
       </div>
 
-      {/* :MOBILE MENU */}
       {isOpen && (
         <div className="w-full flex flex-col py-4 px-3 md:hidden bg-cyan text-sm uppercase text-center font-semibold">
+          <a
+            href="/"
+            className="block px-3 py-2 rounded-md text-gray hover:text-white hover:bg-gray-700"
+          >
+            Início
+          </a>
           <a
             href="#benefits"
             className="block px-3 py-2 rounded-md text-gray hover:text-white hover:bg-gray-700"

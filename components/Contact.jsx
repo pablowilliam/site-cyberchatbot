@@ -29,7 +29,7 @@ const Contact = () => {
           <div className="text-center space-y-2">
             {/* :::title */}
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-wider">
-              Deseja falar conosco?
+              Desejas falar conosco?
             </h2>
             {/* :::text */}
             <p className="text-sm sm:text-base text-gray-500">
