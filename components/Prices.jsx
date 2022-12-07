@@ -83,7 +83,7 @@ const Pricing1 = () => {
             </ul>
             {/* Subscribe */}
             <button className="animate-pulse py-2 px-10 rounded-3xl bg-cyan text-lg text-gray font-medium tracking-wide antialiased shadow-lg transition duration-100 ease-in transform hover:scale-105 hover:bg-sky">
-              <a href="https://wa.me/351931941365?text=Gostaria%20de%20saber%20mais%20sobre%20o%20CyberChatBot%20Plano%20Mensal">
+              <a href="https://wa.me/351939121286?text=Gostaria%20de%20saber%20mais%20sobre%20o%20CyberChatBot%20Plano%20Mensal">
                 Assinar plano
               </a>
             </button>
@@ -126,7 +126,7 @@ const Pricing1 = () => {
             </ul>{" "}
             {/* Subscribe */}
             <button className="animate-pulse py-2 px-10 rounded-3xl bg-cyan text-lg text-gray font-medium tracking-wide antialiased shadow-lg transition duration-100 ease-in transform hover:scale-105 hover:bg-sky">
-              <a href="https://wa.me/351931941365?text=Gostaria%20de%20saber%20mais%20sobre%20o%20CyberChatBot%20Plano%20Semestral">
+              <a href="https://wa.me/351939121286?text=Gostaria%20de%20saber%20mais%20sobre%20o%20CyberChatBot%20Plano%20Semestral">
                 Assinar plano
               </a>
             </button>
@@ -169,7 +169,7 @@ const Pricing1 = () => {
             </ul>{" "}
             {/* Subscribe */}
             <button className="animate-pulse py-2 px-10 rounded-3xl bg-cyan text-lg text-gray font-medium tracking-wide antialiased shadow-lg transition duration-100 ease-in transform hover:scale-105 hover:bg-sky">
-              <a href="https://wa.me/351931941365?text=Gostaria%20de%20saber%20mais%20sobre%20o%20CyberChatBot%20Plano%20Anual">
+              <a href="https://wa.me/351939121286?text=Gostaria%20de%20saber%20mais%20sobre%20o%20CyberChatBot%20Plano%20Anual">
                 Assinar plano
               </a>
             </button>
