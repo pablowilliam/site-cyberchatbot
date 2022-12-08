@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components"
+    "\\components",
+    "\\pages",
+    "\\pages\\api",
+    "\\public",
+    "\\styles"
   ],
+  "SelectedNode": "\\components\\Whatsapp.jsx",
   "PreviewInSolutionExplorer": false
 }
